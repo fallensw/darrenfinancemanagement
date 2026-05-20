@@ -1,12 +1,19 @@
-# Assignment 1
+## assignment 1
+this is a finance manager to track income, expenses and balances.
 
-You will only need one file, ie, your node module, for this assignment.
+## There are 5 functions
+1. Add transactions (income, expenses)
+u will need to fill 4 infomation 
+- expense/income followed by category (salary,food,transport,etc) then a simple description (chicken rice, etc) and lastly the amount
 
-In this readme file, describe how to use your node module. It could be similar to **app.js** from Lab2, where you call some functions in your node module and display the output. Describe how to setup your node module, if any. Describe how to call the functions, what parameters required and so on.
+2. Delete transactions
+delete by ID given (1,2,3,4)
 
-You can press **Ctrl+Shift+V** in this file in Visual Studio Code to see a live preview of the readme file.
+3. Check Balance
+shows balance (total income - total expenses)
 
-For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+4. Summary
+shows full summary of total income, total expenses and balance remaining
 
-# References
-Provide the references that you have used to support your assignment. 
+5. Filter by category (salary,food,transport,etc)
+enter a category u want to see and itll display all transactions in that category
